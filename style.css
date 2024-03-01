@@ -21,7 +21,7 @@ body {
     position: relative;
     width: 100%;
     margin: auto;
-    top: 30%;
+    top: 25%;
 }
 
 .work-name {
@@ -54,4 +54,21 @@ body {
     display: block;
 }
 
+button {
+    border: none;
+}
 
+.cta {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    border: none;
+}
+
+.icon{
+    border-radius: 50px;
+}
