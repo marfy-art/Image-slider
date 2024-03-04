@@ -22,6 +22,8 @@ body {
     width: 100%;
     margin: auto;
     top: 25%;
+    display: flex;
+    justify-content: center;
 }
 
 .work-name {
@@ -43,19 +45,29 @@ body {
     width: 100%;
     max-width: 700px;
     right: 22%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .img-content img {
-    display: none;
+    position: absolute;
     width: 100%;
+    opacity: 0; 
+    transition: opacity 1s;
+    
 }
 
 .img-content img.active {
-    display: block;
+    opacity: 1; 
 }
 
 button {
     border: none;
+    background: transparent;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
 }
 
 .cta {
@@ -66,6 +78,7 @@ button {
     width: 100%;
     max-width: 1200px;
     margin: auto;
-    border: none;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
 }
-

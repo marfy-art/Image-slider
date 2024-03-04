@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     function startSlideShow() {
-        slideInterval = setInterval(nextSlide, 2000); // Automatically slide every 2 seconds
+        slideInterval = setInterval(nextSlide, 3000); // Automatically slide every 2 seconds
     }
 
     function stopSlideShow() {
