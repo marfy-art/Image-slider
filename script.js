@@ -5,6 +5,9 @@ document.addEventListener("DOMContentLoaded", function() {
     let currentIndex = 0;
     let slideInterval;
 
+    // Show the first slide immediately
+    slides[currentIndex].classList.add('active');
+
     function goToSlide(index) {
         // Hide all slides
         slides.forEach(slide => {
@@ -26,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     function startSlideShow() {
-        slideInterval = setInterval(nextSlide, 3000); // Automatically slide every 2 seconds
+        slideInterval = setInterval(nextSlide, 3000); // Automatically slide every 3 seconds
     }
 
     function stopSlideShow() {
