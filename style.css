@@ -53,16 +53,90 @@ body {
     justify-content: center;
 }
 
-.border {
-    width: auto;
-    height: 800px;
+/* Image styel design */
+
+.oval-border-image1 {
+    width: 380px;
+    height: 790px;
 }
 
-.portfolio {
+.portfolio-image1 {
     position: absolute;
     width: auto;
     height: 780px;
 }
+
+
+
+.circle-border-image2 {
+    width: 650px;
+    height: 650px;
+}
+
+.portfolio-image2 {
+    position: absolute;
+    width: 800px;
+    height: 800px;
+}
+
+
+.box-border-image3{
+    width: 650px;
+    height: 650px;
+}
+
+.portfolio-image3{
+    position: absolute;
+    width: 800px;
+    height: 800px;
+}
+
+
+.oval-border-image4 {
+    width: 380px;
+    height: 790px;
+    z-index: 2;
+   
+}
+
+.portfolio-image4{
+    position: absolute;
+    width: 380px;
+    height: 780px;
+    background-image: url(img\ 4.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 280px;
+    
+}
+
+
+
+.circle-border-image5{
+    width: 800px;
+    height: 800px;
+    background-image: url(img\ 4.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 100%;
+}
+
+
+.box-border-image6{
+    width: 800px;
+    height: 800px;
+}
+
+.portfolio-image6{
+    position: absolute;
+    width: 720px;
+    height: 720px;
+    background-image: url(img\ 4.png);
+    background-size: cover;
+    background-position: center;
+}
+
+/* end image style */
 
 
 .img-content {
