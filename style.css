@@ -58,6 +58,7 @@ body {
 .oval-border-image1 {
     width: 380px;
     height: 790px;
+    
 }
 
 .portfolio-image1 {
@@ -115,10 +116,19 @@ body {
 .circle-border-image5{
     width: 800px;
     height: 800px;
+    z-index: 2;
+    
+}
+
+.portfolio-image5{
+    position: absolute;
+    width: 800px;
+    height: 800px;
     background-image: url(img\ 4.png);
     background-size: cover;
     background-position: center;
     border-radius: 100%;
+    z-index: 1;
 }
 
 
